@@ -1,0 +1,149 @@
+.skip a{
+    position: absolute;
+    padding: 8px;
+    transform: translateY(-150%);
+    transition: transform 0.3s;
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+  
+}
+.skip a:focus{
+    position:static;
+    width:auto;
+    height:auto;
+    transform: translateY(0%);
+
+}
+
+.no_visible {
+    visibility: hidden;
+}
+
+*:focus {
+    outline: 4px solid rgb(12, 197, 12);
+}
+
+.menu-header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.menu-header ul li a {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    text-transform: initial;
+}
+
+
+.menu-header ul li a[aria-current="page"]{
+    font-weight: bold;
+    border-bottom:2px solid orange;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.tituloWeb{
+    
+    text-align: center;
+}
+
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+    font-size: 1.6rem;
+}
+
+.container h2 {
+    font-size: 2.4rem;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+.contenido {
+    width: 30%;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+.contenido img {
+    width: 307;
+    height: 68;
+    max-width: 100%;
+}
+.contenido h3 {
+    text-align: center;
+}
+
+.contenido p {
+    padding: 1.2rem;
+    font-size: 1.8rem;
+}
+
+.listado {
+    list-style-type: none;
+    width: 80%;
+}
+
+.listado li {
+    border: 1px solid #CCCCCC;
+    padding: 1.5rem
+}
+#compra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/bg.jpg');
+    padding: 10rem;
+}
+.imagen_bg {
+    max-width: 100%;
+}
+
+.texto-compra {
+    background-color: rgba(0, 0, 0, 0.561);
+    width: auto;
+    padding: 0 3rem;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.botones button {
+    background-color: orange;
+    padding: 2rem;
+    border-radius: 5px;
+    font-size: 2.5rem;
+}
+.modo_contacto  {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    padding: 0.5rem;
+}
+
+.modo_contacto svg {
+    margin-right: 2rem;
+}
+
+footer {
+    background-color: rgb(213, 148, 26);
+    margin-top: 3rem;
+}
+
+footer .container {
+    max-width: 1024px;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}

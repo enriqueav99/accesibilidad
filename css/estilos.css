@@ -147,3 +147,9 @@ footer .container {
     display: flex;
     justify-content: space-between;
 }
+.introduccion{
+    margin-top: 3rem;
+}
+header{
+    background-color: rgb(213, 148, 26);
+}
